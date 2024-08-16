@@ -33,8 +33,7 @@ jobs:
         run: pod install --verbose
         working-directory: ios
 
-      - name: Build iOS Release
-        run: flutter build ios --no-codesign
+      
 
       - name: Prepare Payload Directory
         run: mkdir -p build/ios/iphoneos/Payload
