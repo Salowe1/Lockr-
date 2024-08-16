@@ -2,7 +2,7 @@
 platform :ios, '9.0'
 
 # Specify the path to the Xcode project
-project 'Runner.xcodeproj'
+project 'Runner.xworkspace'
 
 target 'Runner' do
   # Use dynamic frameworks
